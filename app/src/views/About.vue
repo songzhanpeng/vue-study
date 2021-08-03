@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-07-28 15:10:31
- * @LastEditTime: 2021-07-28 18:37:18
+ * @LastEditTime: 2021-07-29 09:38:46
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \app\src\views\About.vue
@@ -18,7 +18,8 @@
 <script>
 export default {
   created() {
-    console.log(this.$store);
+    console.log(this);
+    // console.log(this._router);
   },
 };
 </script>
